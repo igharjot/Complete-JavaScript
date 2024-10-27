@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    margin: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: underline;
+    text-align: center;
+    border: 3px solid rgb(232, 154, 51);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+    background-color: aliceblue;
+    transform: all linear 0.3sec;
+}
+.box p{
+
+}
+div:hover {
+    font-size: 2.5rem;
+    padding: auto;
+}
