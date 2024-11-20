@@ -1,3 +1,7 @@
+// Que- Why is it used ?
+
+// Ans- So that if there is any error in the code, the other program should not get effected/stopped due to that single error only.
+
 let a = 50;
 let b = 100;
 console.log(a + b);
