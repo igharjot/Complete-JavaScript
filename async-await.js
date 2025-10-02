@@ -23,10 +23,7 @@ async function getWeatherData() {
     await Api();  // 2nd call
 }
 
-
-
 // Comparing Async-Await, Promise and Callback Hell codes
-
 function getData(dataID, getNextData) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
@@ -87,8 +84,6 @@ getData(1, () => {
     });    
 });
 
-
-
 // IIFE- Immediately Invoked Function Expression
 // It is a function that is called immediately as sooon as it is defined.
 (async function getAllData() {
@@ -102,4 +97,5 @@ getData(1, () => {
     await getData("ROll No-146");
     console.log("Fetching data 5 ....");
     await getData("ROll No-154");
+
 })();
