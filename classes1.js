@@ -1,13 +1,10 @@
 //                      P R O T O T Y P E :
-
 //  1. JS objects have a special property called prototype. 
 //  2. Prototype is a pre-defined or a default object INSIDE every object, which contains certain methods and properties. 
 //  3. For example - push(), pop() and toString() properties.
 
 
-
 //                         C L A S S E S
-
 class ToyotaCar {
     constructor (rate, name) {
         console.log("A new object is created.");
@@ -43,8 +40,6 @@ console.log(fortuner);
 console.log(innova);
 
 
-
-
 //                        I N H E R I T A N C E
 
 class Parent{
@@ -77,4 +72,5 @@ class GrandChild extends Child {      // Multi-level Inheritance.
 
 let maaBaap = new Parent;
 let aulaad = new Child;
+
 let potre = new GrandChild;
